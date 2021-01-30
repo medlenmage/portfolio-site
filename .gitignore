@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+README.md:Zone.Identifier
+package-lock.json:Zone.Identifier
+package.json:Zone.Identifier
+yarn.lock:Zone.Identifier
