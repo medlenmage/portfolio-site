@@ -28,7 +28,7 @@ function App() {
 
   const get = () => {
     return fetch('http://joshua-medlen-portfolio.herokuapp.com/')
-    .then(res.send('Hello'))
+    .then(res.send('Hello world'))
   }
 
   return (
