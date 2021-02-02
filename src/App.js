@@ -26,6 +26,11 @@ function App() {
     }
   }
 
+  const get = () => {
+    return fetch('http://joshua-medlen-portfolio.herokuapp.com/')
+    .then(res.send('Hello'))
+  }
+
   return (
     <BrowserRouter>
       <div className="light-mode">
